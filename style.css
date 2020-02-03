@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    width: auto;
+    background-color: #fa6f05;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#logo {
+    height: auto;
+    width: 10%;
+}
+.lion {
+    height: auto;
+    width: 33%;
+}
+.socials {
+    display: flex;
+}
+.socials a {
+    color: white;
+    width: 20%;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.socials a h3 {
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 20px
+}
+.socials a h3:hover {
+    background-color: fa6f05;
+}
+
+.stadium {
+    height: 250px;
+    width: auto;
+}
+
+nav {
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+}
+
+li {
+    display: inline;
+    margin: auto;
+}
+
+.navItem {
+    color:white;
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.welcome {
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    width: 40%;
+    color: white;
+}
+
+.news {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 15px;
+    margin: 60px auto;
+    width: 75%;
+}
+
+.abouts {
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    padding: 5px;
+    margin: 15 auto;
+    width: 75%;  
+}
+
+.main {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 60px auto;
+    width: 65%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.pic {
+    width: 50%;
+    height: 400px;
+}
+
+.newsPreview {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+a.button {
+    padding: 3px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+}
+
+.schedule {
+    display: flex;
+    margin-top: 250px;
+    text-align: center;
+}
+
+
+table {
+    border: 2px solid white;
+    background-color: black;
+    margin: 0 auto;
+    height: 300px;
+    width: 30%;
+    color: white;
+    border-collapse: collapse;
+}
+caption {
+    margin: 0 auto;
+    background-color: black;
+    border: 1px solid white;
+}
+td {
+    margin: 10 auto;
+    border-bottom: 1px solid #ddd;
+    width: 50%;
+    padding: 10px;
+}
+tr:nth-child(odd) {
+    background-color: #fa6f05;
+}
+
+.date {
+    text-align: right;
+}
